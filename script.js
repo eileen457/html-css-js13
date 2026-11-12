@@ -72,7 +72,7 @@ document.querySelectorAll("#complaints-group input").forEach(input=>{
     redGreen("complaints-group",currentSt["complaints-group"]);
     redGreen("complaint-description",currentSt["complaint-description"]);
 
-     Si 'Other' está marcado, muestra el textarea. Si no, lo oculta.
+    // Si 'Other' está marcado, muestra el textarea. Si no, lo oculta.
     complaintDes.style.display = otherCheck.checked ? "block" : "none";
   });
 });
@@ -83,8 +83,8 @@ document.querySelectorAll("#solutions-group input").forEach(input=>{
     redGreen("solutions-group", currentSt["solutions-group"]);
     redGreen("solution-description",currentSt["solution-description"]);
 
-    Si el radio 'Other' está seleccionado, muestra el textarea. Si no, lo oculta.
-    solutionDes.style.display = otheRadio.checked ? "block" : "none";
+   // Si el radio 'Other' está seleccionado, muestra el textarea. Si no, lo oculta.
+    solutionDes.style.display = otherRadio.checked ? "block" : "none";
   });
 });
 
